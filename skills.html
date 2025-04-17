@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> 
+    <title>Skills</title>
+</head>
+<style>
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #ffffff;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    background-image: url('resources/codioful-formerly-gradienta-1LirzgcpY2c-unsplash.jpg');
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    height: 100vh;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+nav{
+    margin:auto 0.9rem;    
+}
+nav ul{
+    list-style: none;            
+}
+nav ul li{
+    display: inline;                             
+}
+nav ul li a{
+    color: #ffffff;
+    text-decoration: none;            
+    padding: 1rem; 
+    font-size: 1rem;       
+}
+
+.skills{        
+    display:grid;    
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr; 
+    grid-gap:10px ;        
+    padding: 40px;  
+    justify-content:space-around; 
+    text-align: center; 
+    margin-top: 0;         
+}
+.box1{   
+    border-radius: 6px;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    border: 2px solid #ffffff;    
+    backdrop-filter: blur(100px);             
+}
+.sk{
+    text-align: center;
+}
+/*contents after the skill boxes*/
+.con2{
+    display:grid;    
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-gap:10px ;        
+    padding: 20px;  
+    justify-content:center; 
+    text-align:center; 
+    margin:auto;   
+}
+.box2{
+    border: 2px solid #ffffff;
+    border-radius: 6px;
+    padding: 20px;
+    line-height: 2rem;
+    width: 90%;
+    margin-left:auto;
+    margin-right: auto;
+    backdrop-filter: blur(100px);
+}
+footer{
+    font-size:1rem;
+    justify-content:space-evenly;
+    text-align: center;
+    padding: 1rem;
+}
+@media(max-width:576px){
+    nav  ul li a{
+    padding:0;  
+    margin: 10px 5px;
+    font-size: 16px;         
+}
+.skills{
+    display:grid;    
+    grid-template-columns: 1fr 1fr ; 
+    grid-gap:5px ;             
+    justify-content:center; 
+    text-align: center; 
+    margin-top: 1rem; 
+    padding: 20px;                
+}
+.box1{           
+    width:80%;
+    text-align: center; 
+    margin:10px auto;
+    font-size: 14px;                                  
+}
+.sk{
+    margin-top: 3rem;   /*head tag for skills */
+}
+.con2{
+    display:grid;    
+    grid-template-columns: 1fr ; 
+    grid-gap:10px ;        
+    padding: 20px;  
+    justify-content:center; 
+    text-align:center; 
+    margin:auto;   
+}
+}
+@media (min-width:576px) and (max-width:768px){ 
+    nav  ul li a{
+    padding:0;  
+    margin: 10px 5px;
+    font-size: 16px;         
+}   /*the main container housing the skill boxes*/
+.skills{
+   display:grid;    
+   grid-template-columns: 1fr 1fr 1fr ; 
+   grid-gap:5px ;             
+   justify-content:center; 
+   text-align: center; 
+   margin-top: 1rem;                 
+}
+.box1{ 
+   margin-top: 20px;        
+   width:80%;
+   text-align: center; 
+   margin:10px auto;
+   font-size: 14px;                                  
+}
+.sk{
+    margin-top: 3rem;
+}
+.con2{
+    display:grid;    
+    grid-template-columns: 1fr ; 
+    grid-gap:10px ;        
+    padding: 20px;  
+    justify-content:center; 
+    text-align:center; 
+    margin:auto;   
+}
+@media (min-width:768px) and (max-width:992px){
+    .con2{
+    display:grid;    
+    grid-template-columns: 1fr 1fr 1fr ; 
+    grid-gap:10px ;        
+    padding: 20px;  
+    justify-content:center; 
+    text-align:center; 
+    margin:auto;   
+}
+}
+}
+
+</style>
+<body>
+    <header>
+        <h2 class="dev-name"><i class="fa-light fa-o fa-beat-fade"></i>niya</h2>        
+        <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Skills</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        </nav>
+        </header>        
+    <div class="sk">
+        <h2>Skills</h2>
+        </div>        
+        <div class="skills">
+        <div class="box1">
+        <p>Programming Language</p><br>
+        </div>        
+        <div class="box1">
+        <p>Software Design and Architecture</p>
+        </div>        
+        <div class="box1">
+        <p>Problem-solving</p><br>
+        </div>        
+        <div class="box1">
+        <p>Software Development Methodologies</p>
+        </div>        
+        <div class="box1">
+        <p>Collaboration and Communication</p>
+        </div>        
+        <div class="box1">
+        <p>Adaptability and Continuous Learning</p>
+        </div>        
+        </div>
+        <!--contents after the skill boxes-->
+        <div class="con2">
+            <div class="box2">
+               <h3>Programming Language</h3>
+               <p>As a web developer, I utilize a diverse set of programming languages to build dynamic, user-friendly, and robust web applications.
+                HTML (HyperText Markup Language), CSS (Cascading Style Sheets), and JavaScript.
+               </p>
+               </div>
+               <div class="box2">
+               <h3>Software Design and Architecture</h3>
+               <p>Software Design in Web Development In web development, software design involves defining the overall structure, components, and interactions of a web application.
+                 My approach to software design focuses on creating scalable and user-centric solutions that align with business requirements.
+               </p></div>
+               <div class="box2">
+               <h3>Problem-solving</h3>
+               <p>As a web developer, I approach problem-solving systematically, ensuring issues are addressed efficiently and effectively</p></div>
+               <div class="box2">
+               <h3>Software Development Methodologies</h3>
+               <p>As a web developer, I leverage established software development methodologies to ensure project success. These methodologies guide how teams collaborate, manage resources, and deliver quality products. Below are some of the methodologies I am experienced with</p></div>
+               <div class="box2">
+               <h3>Collaboration and Communication</h3>
+               <p>Web development is rarely a solo endeavor—it often involves teamwork across various roles such as designers, developers, project managers, and clients. I excel at collaborating with diverse teams to achieve shared goals. Some key aspects include.</p></div>
+               <div class="box2">
+               <h3>Adaptability and Continuous Learning</h3>
+               <p>Web development often requires adjusting to new challenges, tools, and project requirements. My adaptability allows me to thrive in dynamic environments. Examples include: Embracing New Technologies, Navigating Complex Challenges, Cross-Functional Collaboration.</p></div>
+        </div>
+        <footer>
+            &copy;2025 Oniya Oluwatobiloba. All rights reserved. 
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-linkedin"></i>
+        <i class="fa-brands fa-tiktok"></i>
+        <i class="fa-brands fa-x-twitter"></i></footer>
+        </footer>
+</body>
+</html>

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://cdn.jsdelivr.net/npm/notyf/notyf.min.css" rel="stylesheet" />
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet" />
+	<title>Oniya</title>
+	<style type="text/css">*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #ffffff;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    background-image: url('resources/codioful-formerly-gradienta-1LirzgcpY2c-unsplash.jpg');  
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    height:100vh;
+}
+/*styling for the header including the nav bar*/
+header{
+    justify-content:space-between;
+    display: flex;
+    color:#ffffff;
+    padding:1rem;
+}
+nav{
+    margin:auto 1rem;    
+}
+nav ul{
+    list-style: none;            
+}
+nav ul li{
+    display: inline;
+                      
+}
+nav ul li a{
+    color: #ffffff;
+    text-decoration: none;            
+    padding: 1rem; 
+    margin:0;                        
+}
+footer{
+    font-size:1rem;
+    justify-content:space-evenly;
+    text-align: center;
+    padding: 1rem;
+}
+.dev-name{
+font-size:2rem;
+}
+
+.explore:hover{
+    background-color:#1a2d42;
+    color: #ffffff;
+}        
+/*introduction message styling section*/
+.landing-page{
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    font-size: 1.2rem;
+    margin: 6rem 0;
+}
+.intro{
+    width: 90%;
+    line-height: 2.5rem;
+}
+.explore{
+    padding:0.5rem 0.5rem;
+    background-color:blue;
+    color: #ffffff;
+    border:1px none;
+    border-radius: 0.3rem;
+    font-size: 1.2rem;
+    margin: 2rem 0;
+}
+/*media queries for various screens below*/
+@media (max-width:556px){
+    nav  ul li a{
+    padding:0;  
+    margin: 10px 5px;
+    font-size: 16px;         
+}
+.landing-page{
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    font-size: 1.2rem;
+    margin: 13rem 0;
+}
+.intro{
+    width: 95%;
+    line-height: 2rem;
+}
+.explore{
+    border-radius: 0.2rem;
+    font-size:16px;
+    background-color:blue;
+    color:white;   
+}
+.welcome{
+font-size:2rem;
+}
+footer{
+    font-size:13px;   
+}
+
+}
+	</style>
+	
+<script>
+        function redirect() {
+            window.location.href = "https://tobbytech.online/newportfolio/project.html"; 
+        }
+</script>
+</head>
+<body><!--The structure for the first page basically the landing page-->
+<header>
+<h2 class="dev-name"><i class="fa-light fa-o fa-beat-fade"></i>niya</h2>
+
+<nav>
+<ul>
+	<li><a href="https://tobbytech.online/newportfolio/index.html"><i class="fas fa-home"></i></a></li>
+	<li><a href="https://tobbytech.online/newportfolio/skills.html">Skills</a></li>
+	<li><a href="https://tobbytech.online/newportfolio/project.html">Projects</a></li>
+	<li><a href="https://tobbytech.online/newportfolio/contact.html">Contact</a></li>
+</ul>
+</nav>
+</header>
+
+<div class="landing-page">
+<div class="intro">
+<h2 class="welcome">Welcome to my Portfolio</h2>
+
+<p>Hello! I&#39;m Oniya Oluwatobiloba, a passionate web developer with a love for creating visually stunning designs and building user-friendly websites. This portfolio showcases my work and the projects that have shaped my career. Each project reflects my commitment to delivering exceptional results and creating captivating digital spaces.</p>
+<!--Explore button below--><button class="explore" onclick="redirect()">Explore my work  <i class="fa-solid fa-angle-right fa-beat"></i></button></div>
+</div>
+
+<footer>&copy;2025 Oniya Oluwatobiloba. All rights reserved.   <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-linkedin"></i>
+        <i class="fa-brands fa-tiktok"></i>
+        <i class="fa-brands fa-x-twitter"></i></footer>
+</body>
+</html>
